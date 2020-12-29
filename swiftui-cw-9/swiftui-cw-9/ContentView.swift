@@ -48,6 +48,6 @@ struct moviesList: View {
                     .font(.largeTitle)
                 Text(moviesCOStar.joined(separator: ", "))
             }.font(.custom("Merriweather-BoldItalic", size: 18))
-        }
+        }.padding(.vertical)
     }
 }
