@@ -1,14 +1,14 @@
 //
-//  swiftui_cw_9App.swift
-//  swiftui-cw-9
+//  day5App.swift
+//  day5
 //
-//  Created by Yousif on 29/12/2020.
+//  Created by Yousif on 02/01/2021.
 //
 
 import SwiftUI
 
 @main
-struct swiftui_cw_9App: App {
+struct day5App: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

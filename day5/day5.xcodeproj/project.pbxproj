@@ -7,25 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A8FD747E259BAC86007C7AFF /* swiftui_cw_9App.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FD747D259BAC86007C7AFF /* swiftui_cw_9App.swift */; };
-		A8FD7480259BAC86007C7AFF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FD747F259BAC86007C7AFF /* ContentView.swift */; };
-		A8FD7482259BAC8B007C7AFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8FD7481259BAC8B007C7AFF /* Assets.xcassets */; };
-		A8FD7485259BAC8B007C7AFF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8FD7484259BAC8B007C7AFF /* Preview Assets.xcassets */; };
-		A8FD7490259BB730007C7AFF /* Merriweather-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A8FD748F259BB730007C7AFF /* Merriweather-BoldItalic.ttf */; };
+		A815AF1C25A0DC41003BB952 /* day5App.swift in Sources */ = {isa = PBXBuildFile; fileRef = A815AF1B25A0DC41003BB952 /* day5App.swift */; };
+		A815AF1E25A0DC41003BB952 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A815AF1D25A0DC41003BB952 /* ContentView.swift */; };
+		A815AF2025A0DC47003BB952 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A815AF1F25A0DC47003BB952 /* Assets.xcassets */; };
+		A815AF2325A0DC47003BB952 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A815AF2225A0DC47003BB952 /* Preview Assets.xcassets */; };
+		A815AF2D25A0DFE1003BB952 /* MovieDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A815AF2C25A0DFE1003BB952 /* MovieDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A8FD747A259BAC86007C7AFF /* swiftui-cw-9.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swiftui-cw-9.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A8FD747D259BAC86007C7AFF /* swiftui_cw_9App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftui_cw_9App.swift; sourceTree = "<group>"; };
-		A8FD747F259BAC86007C7AFF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		A8FD7481259BAC8B007C7AFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A8FD7484259BAC8B007C7AFF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		A8FD7486259BAC8B007C7AFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A8FD748F259BB730007C7AFF /* Merriweather-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-BoldItalic.ttf"; sourceTree = "<group>"; };
+		A815AF1825A0DC41003BB952 /* day5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = day5.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A815AF1B25A0DC41003BB952 /* day5App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day5App.swift; sourceTree = "<group>"; };
+		A815AF1D25A0DC41003BB952 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A815AF1F25A0DC47003BB952 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A815AF2225A0DC47003BB952 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A815AF2425A0DC47003BB952 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A815AF2C25A0DFE1003BB952 /* MovieDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A8FD7477259BAC86007C7AFF /* Frameworks */ = {
+		A815AF1525A0DC41003BB952 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,86 +35,78 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A8FD7471259BAC86007C7AFF = {
+		A815AF0F25A0DC41003BB952 = {
 			isa = PBXGroup;
 			children = (
-				A8FD747C259BAC86007C7AFF /* swiftui-cw-9 */,
-				A8FD747B259BAC86007C7AFF /* Products */,
+				A815AF1A25A0DC41003BB952 /* day5 */,
+				A815AF1925A0DC41003BB952 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A8FD747B259BAC86007C7AFF /* Products */ = {
+		A815AF1925A0DC41003BB952 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A8FD747A259BAC86007C7AFF /* swiftui-cw-9.app */,
+				A815AF1825A0DC41003BB952 /* day5.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A8FD747C259BAC86007C7AFF /* swiftui-cw-9 */ = {
+		A815AF1A25A0DC41003BB952 /* day5 */ = {
 			isa = PBXGroup;
 			children = (
-				A8FD747D259BAC86007C7AFF /* swiftui_cw_9App.swift */,
-				A8FD747F259BAC86007C7AFF /* ContentView.swift */,
-				A8FD7481259BAC8B007C7AFF /* Assets.xcassets */,
-				A8FD7486259BAC8B007C7AFF /* Info.plist */,
-				A8FD748E259BB720007C7AFF /* Fonts */,
-				A8FD7483259BAC8B007C7AFF /* Preview Content */,
+				A815AF1B25A0DC41003BB952 /* day5App.swift */,
+				A815AF1D25A0DC41003BB952 /* ContentView.swift */,
+				A815AF2C25A0DFE1003BB952 /* MovieDetailView.swift */,
+				A815AF1F25A0DC47003BB952 /* Assets.xcassets */,
+				A815AF2425A0DC47003BB952 /* Info.plist */,
+				A815AF2125A0DC47003BB952 /* Preview Content */,
 			);
-			path = "swiftui-cw-9";
+			path = day5;
 			sourceTree = "<group>";
 		};
-		A8FD7483259BAC8B007C7AFF /* Preview Content */ = {
+		A815AF2125A0DC47003BB952 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				A8FD7484259BAC8B007C7AFF /* Preview Assets.xcassets */,
+				A815AF2225A0DC47003BB952 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		A8FD748E259BB720007C7AFF /* Fonts */ = {
-			isa = PBXGroup;
-			children = (
-				A8FD748F259BB730007C7AFF /* Merriweather-BoldItalic.ttf */,
-			);
-			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A8FD7479259BAC86007C7AFF /* swiftui-cw-9 */ = {
+		A815AF1725A0DC41003BB952 /* day5 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A8FD7489259BAC8B007C7AFF /* Build configuration list for PBXNativeTarget "swiftui-cw-9" */;
+			buildConfigurationList = A815AF2725A0DC47003BB952 /* Build configuration list for PBXNativeTarget "day5" */;
 			buildPhases = (
-				A8FD7476259BAC86007C7AFF /* Sources */,
-				A8FD7477259BAC86007C7AFF /* Frameworks */,
-				A8FD7478259BAC86007C7AFF /* Resources */,
+				A815AF1425A0DC41003BB952 /* Sources */,
+				A815AF1525A0DC41003BB952 /* Frameworks */,
+				A815AF1625A0DC41003BB952 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "swiftui-cw-9";
-			productName = "swiftui-cw-9";
-			productReference = A8FD747A259BAC86007C7AFF /* swiftui-cw-9.app */;
+			name = day5;
+			productName = day5;
+			productReference = A815AF1825A0DC41003BB952 /* day5.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A8FD7472259BAC86007C7AFF /* Project object */ = {
+		A815AF1025A0DC41003BB952 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1230;
 				LastUpgradeCheck = 1230;
 				TargetAttributes = {
-					A8FD7479259BAC86007C7AFF = {
+					A815AF1725A0DC41003BB952 = {
 						CreatedOnToolsVersion = 12.3;
 					};
 				};
 			};
-			buildConfigurationList = A8FD7475259BAC86007C7AFF /* Build configuration list for PBXProject "swiftui-cw-9" */;
+			buildConfigurationList = A815AF1325A0DC41003BB952 /* Build configuration list for PBXProject "day5" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -122,43 +114,43 @@
 				en,
 				Base,
 			);
-			mainGroup = A8FD7471259BAC86007C7AFF;
-			productRefGroup = A8FD747B259BAC86007C7AFF /* Products */;
+			mainGroup = A815AF0F25A0DC41003BB952;
+			productRefGroup = A815AF1925A0DC41003BB952 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A8FD7479259BAC86007C7AFF /* swiftui-cw-9 */,
+				A815AF1725A0DC41003BB952 /* day5 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A8FD7478259BAC86007C7AFF /* Resources */ = {
+		A815AF1625A0DC41003BB952 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8FD7485259BAC8B007C7AFF /* Preview Assets.xcassets in Resources */,
-				A8FD7490259BB730007C7AFF /* Merriweather-BoldItalic.ttf in Resources */,
-				A8FD7482259BAC8B007C7AFF /* Assets.xcassets in Resources */,
+				A815AF2325A0DC47003BB952 /* Preview Assets.xcassets in Resources */,
+				A815AF2025A0DC47003BB952 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A8FD7476259BAC86007C7AFF /* Sources */ = {
+		A815AF1425A0DC41003BB952 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8FD7480259BAC86007C7AFF /* ContentView.swift in Sources */,
-				A8FD747E259BAC86007C7AFF /* swiftui_cw_9App.swift in Sources */,
+				A815AF2D25A0DFE1003BB952 /* MovieDetailView.swift in Sources */,
+				A815AF1E25A0DC41003BB952 /* ContentView.swift in Sources */,
+				A815AF1C25A0DC41003BB952 /* day5App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		A8FD7487259BAC8B007C7AFF /* Debug */ = {
+		A815AF2525A0DC47003BB952 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -219,7 +211,7 @@
 			};
 			name = Debug;
 		};
-		A8FD7488259BAC8B007C7AFF /* Release */ = {
+		A815AF2625A0DC47003BB952 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -274,44 +266,44 @@
 			};
 			name = Release;
 		};
-		A8FD748A259BAC8B007C7AFF /* Debug */ = {
+		A815AF2825A0DC47003BB952 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"swiftui-cw-9/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"day5/Preview Content\"";
 				DEVELOPMENT_TEAM = 39J3QLGDT8;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "swiftui-cw-9/Info.plist";
+				INFOPLIST_FILE = day5/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.yaa.swiftui-cw-9";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yaa.day5;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		A8FD748B259BAC8B007C7AFF /* Release */ = {
+		A815AF2925A0DC47003BB952 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"swiftui-cw-9/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"day5/Preview Content\"";
 				DEVELOPMENT_TEAM = 39J3QLGDT8;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "swiftui-cw-9/Info.plist";
+				INFOPLIST_FILE = day5/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.yaa.swiftui-cw-9";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yaa.day5;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -321,25 +313,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A8FD7475259BAC86007C7AFF /* Build configuration list for PBXProject "swiftui-cw-9" */ = {
+		A815AF1325A0DC41003BB952 /* Build configuration list for PBXProject "day5" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A8FD7487259BAC8B007C7AFF /* Debug */,
-				A8FD7488259BAC8B007C7AFF /* Release */,
+				A815AF2525A0DC47003BB952 /* Debug */,
+				A815AF2625A0DC47003BB952 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A8FD7489259BAC8B007C7AFF /* Build configuration list for PBXNativeTarget "swiftui-cw-9" */ = {
+		A815AF2725A0DC47003BB952 /* Build configuration list for PBXNativeTarget "day5" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A8FD748A259BAC8B007C7AFF /* Debug */,
-				A8FD748B259BAC8B007C7AFF /* Release */,
+				A815AF2825A0DC47003BB952 /* Debug */,
+				A815AF2925A0DC47003BB952 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A8FD7472259BAC86007C7AFF /* Project object */;
+	rootObject = A815AF1025A0DC41003BB952 /* Project object */;
 }
