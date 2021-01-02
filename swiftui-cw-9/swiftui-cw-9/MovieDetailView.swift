@@ -13,17 +13,18 @@ struct MovieDetailView: View {
     var body: some View {
         ZStack {
             Group{
-                Image(movie.movieImage)
-                    .resizable()
-                    .aspectRatio(contentMode: .fill)
-                    .blur(radius: 8)
                 Color.black.opacity(0.3)
+                    .background(
+                        Image(movie.movieImage)
+                            .resizable()
+                            .aspectRatio(contentMode: .fill)
+                            .blur(radius: 8))
             }.ignoresSafeArea()
             VStack{
                 Image(movie.movieImage)
                     .resizable()
-                    .aspectRatio(contentMode: .fit)
-                    .frame(width: 300)
+                    .aspectRatio(contentMode: .fill)
+                    .frame(width: 300, height: 300)
                     .clipShape(Circle())
                     .overlay(Circle().stroke(Color.white, lineWidth: 6))
                 
@@ -31,7 +32,16 @@ struct MovieDetailView: View {
                     .font(.system(size: 50))
                     .bold()
                 Text(movie.COStar.joined(separator: ", "))
-                   .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
+                    .font(.title)
+                
+                ScrollView(.horizontal, showsIndicators: false){
+                    HStack{
+                        ForEach(movie.charImage, id: \.self){(raw: String) in
+                            Image(raw).resizable().scaledToFit().frame(width: 200)
+                        }
+                    }
+                }
+                Spacer()
             }.padding(.vertical)
             .foregroundColor(.white)
         }
