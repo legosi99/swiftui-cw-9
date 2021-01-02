@@ -8,31 +8,29 @@
 import SwiftUI
 
 struct MovieDetailView: View {
-    let moviesName: String
-    let moviesCOStar: [String]
-    let moviesLogo: String
+    let movie: Movies
     
     var body: some View {
         ZStack {
             Group{
-                Image(moviesLogo)
+                Image(movie.movieImage)
                     .resizable()
                     .aspectRatio(contentMode: .fill)
                     .blur(radius: 8)
                 Color.black.opacity(0.3)
             }.ignoresSafeArea()
             VStack{
-                Image(moviesLogo)
+                Image(movie.movieImage)
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .frame(width: 300)
                     .clipShape(Circle())
                     .overlay(Circle().stroke(Color.white, lineWidth: 6))
                 
-                Text(moviesName)
+                Text(movie.Title)
                     .font(.system(size: 50))
                     .bold()
-                Text(moviesCOStar.joined(separator: ", "))
+                Text(movie.COStar.joined(separator: ", "))
                    .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
             }.padding(.vertical)
             .foregroundColor(.white)
@@ -42,6 +40,6 @@ struct MovieDetailView: View {
 
 struct MovieDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        MovieDetailView(moviesName: "Lion King", moviesCOStar: ["Simba","Mufasa","Nala"], moviesLogo: "lionKing")
+        MovieDetailView(movie: movies[0])
     }
 }

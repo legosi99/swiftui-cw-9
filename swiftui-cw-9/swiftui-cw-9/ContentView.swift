@@ -1,26 +1,23 @@
 //
 //  ContentView.swift
-//  swiftui-cw-9
+//  day5
 //
-//  Created by Yousif on 29/12/2020.
+//  Created by Yousif on 02/01/2021.
 //
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        ZStack {
-            VStack(alignment: .leading) {
-                Text("MOVIES")
-                    .font(.largeTitle)
-                    .bold()
-                    .padding()
-                List{
-                    moviesList(moviesName: "Lion King", moviesCOStar: ["Simba","Mufasa","Nala"], moviesLogo: "lionKing")
-                    moviesList(moviesName: "Toy Story 4", moviesCOStar: ["Woody","Buzz","Rex"], moviesLogo: "toyStory")
-                    moviesList(moviesName: "Mulan", moviesCOStar: ["Hue li","Hue zhou","Ling"], moviesLogo: "mulan")
-                }
+        NavigationView{
+            List(movies){ movie in
+                NavigationLink(
+                    destination: MovieDetailView(movie: movie),
+                    label: {
+                        moviesList(movie: movie)
+                    })
             }
+            .navigationTitle("Movies")
         }
     }
 }
@@ -32,21 +29,19 @@ struct ContentView_Previews: PreviewProvider {
 }
 
 struct moviesList: View {
-    let moviesName: String
-    let moviesCOStar: [String]
-    let moviesLogo: String
+    let movie: Movies
     
     var body: some View {
         HStack{
-            Image("\(moviesLogo)")
+            Image(movie.movieImage)
                 .resizable()
                 .aspectRatio(contentMode: /*@START_MENU_TOKEN@*/.fill/*@END_MENU_TOKEN@*/)
                 .frame(width: 80, height: 80, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                 .clipShape(Circle())
             VStack(alignment: .leading){
-                Text(moviesName)
+                Text(movie.Title)
                     .font(.largeTitle)
-                Text(moviesCOStar.joined(separator: ", "))
+                Text(movie.COStar.joined(separator: ", "))
             }.font(.custom("Merriweather-BoldItalic", size: 18))
         }.padding(.vertical)
     }
